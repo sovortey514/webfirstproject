@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan',sans-serif;
+
+}
+h1{
+    font-size: 40px;
+    line-height: 64px;
+    color:gray;
+}
+h2{
+    font-size: 40px;
+    line-height: 64px;
+    color:gray;
+    
+
+}
+h4{
+    font-size: 20px;
+    line-height: 64px;
+    color:gray;
+    position: relative;
+    top: 40px;
+}
+.text1{
+    font-size: 15px;
+    line-height: 64px;
+    color:gray;
+    
+}
+.text-3{
+    position: relative;
+    bottom: 15px;
+}
+p{
+    font-size: 16px;
+    color: gray;
+    margin: 10px 0 20px 0;
+}
+.section-p1{
+    padding: 40px 80px;
+}
+.logo{
+    font-size: 25px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    width: 100%;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #E3E6F3;
+    box-sizing: border-box;
+    box-shadow: 0 5px 15px rgb(32, 3, 3);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(75, 74, 74);
+    transition: 0.3s ease;
+}
+#navbar li a:hover,
+#navbar li a.active{
+    color:rgb(213, 144, 222);
+}
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 40%;
+    height: 1px;
+    background: rgb(213, 144, 222);
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+
+}
+#hero{
+    background-image: url("./leemin.png") ;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    background-position:top 25% right 0 ;
+    padding: 0 80px ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+#hero h4{
+    padding-bottom: 15px;
+}
+#hero h1{
+    padding-bottom: 15px;
+    color:  rgb(213, 144, 222);
+}
+#hero button{
+  background-color:  rgb(213, 144, 222); /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+#feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 1px 0px 2px rgb(200, 199, 199);
+    border: 1px solid rgb(220, 218, 218);
+    border-radius: 4px;
+    margin: 15px 0;
+}
+#feature .fe-box:hover{
+    box-shadow: 2px 2px 3px  rgb(213, 144, 222);
+}
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+#feature .fe-box h6{
+    position: relative;
+
+    top: 10px;
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(213, 144, 222); ;
+
+}
+#feature .fe-box img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+#product1{
+    text-align: center;
+}
+#product1 .pro{
+    width: 23%;
+    min-width: 200px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgb(227, 221, 221);
+}
+#product1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+#product1 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+}
+#product1 .pro .des span{
+    color: rgb(168, 163, 163);
+    font-size: 12px;
+}
+#product1 .pro .des h5{
+    padding-top: 7px;
+    color: black;
+    font-size: 14px;
+}
+#product1 .pro .des i{
+    font-size: 12px;
+    color: rgb(221, 130, 32);
+}
+.text-4{
+    position: relative;
+    right: 105px;
+    bottom: 10px;
+    color:green;
+    font-size: 20px;
+}
+.cart{
+    position: relative;
+    left: 100px;
+    bottom: 30px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: rgb(184, 241, 184); ;
+}
+
+
+
